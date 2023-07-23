@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Avinash">
+    <title> E-learning website | Alpha</title>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--plugins for favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+ 
+
+      <!-- google font (Montserrat) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- swiperjs cdn link -->
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+      <!-- custom css file -->
+      <link rel="stylesheet" href="css/style.css">
+
+      <style>
+        body{
+            background-image: url(images/bg-texture.png);
+        }
+      </style>
+</head>
+<body>
+      <nav>
+        <div class="container nav-container">
+            <a href="index.html">ALPHA</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </nav>
+
+      <!-- ====================== end of navbar ============= -->
+
+
+     
+      <header>
+        <div class="container header-container">
+            <div class="header-left">
+                <h1>Grow your skills to advance your carrer path</h1>
+                <p>
+                    Right from understanding the topics to clearing the exam, we offer you a one-stop solution for all your learning needs.
+                </p>
+                <a href="courses.html" class="btn btn-primary" >Get Started</a>
+            </div>
+
+            <div class="header-right">
+                <div class="header-right-img">
+                    <img src="images/header.svg">
+                </div>
+            </div>
+        </div>
+      </header>
+
+      <!-- ====================== end of header ============== -->
+
+
+
+
+      <section class="categories">
+        <div class="container categories-container">
+            <div class="categories-left">
+                <h1>Categories</h1>
+                <p>
+                    we offer a range of ALPHA placement preparation courses designed to help students maximize their potential with the necessary skills and knowledge that are required to crack higher package companies. We make programming simple & easy to understand.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories-right">
+                <article class="category">
+                    <span class="category-icon"><i class="fa-brands fa-bitcoin"></i></span>
+                    <h5>Blockchain</h5>
+                    <p>Top courses in Blockchain and Smart Contracts · Ethereum and Solidity .</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon"><i class="fa-brands fa-wordpress"></i></span>
+                    <h5>Wordpress</h5>
+                    <p>Top courses in WordPress and Web Design · Advanced WordPress & Elementor 2023. </p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon"><i class="fa-brands fa-salesforce"></i></span>
+                    <h5>Salesforce</h5>
+                    <p>This course will help you master Salesforce administration, development and customization.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon"> <i class="fa-solid fa-bullhorn"></i></span>
+                    <h5>Marketing</h5>
+                    <p>Learn marketing to grow your business. Build your digital marketing .
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon"><i class="fa-brands fa-android"></i></span>
+                    <h5>Android Development</h5>
+                    <p>Top courses in Android Development and Java · Full Android Development Masterclass. </p>
+                </article>
+
+                <article class="category">
+                    <span class="category-icon"><i class="fa-solid fa-dollar-sign"></i></span>
+                    <h5>Finance</h5>
+                    <p>Courses to get you started · Most popular · Introduction to Finance, Accounting.</p>
+                </article>
+            </div>
+        </div>
+      </section>
+
+      <!-- ====================== end of categories ============== -->
+
+
+
+
+      <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses-container">
+            <article class="course">
+                <div class="course-image">
+                    <img src="images/course1.jpg" >
+                </div>
+                <div class="course-info">
+                    <h4>Responsive Social Media Website UI Design</h4>
+                <p>
+                    Responsive Social Media Website With Theme Customization Using HTML CSS & JavaScript.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+
+            <article class="course">
+                <div class="course-image">
+                    <img src="images/course2.jpg">
+                </div>
+                <div class="course-info">
+                    <h4>Responsive Portfolio Website UI Design</h4>
+                    <p>
+                        This course will guide you step by step in creating your own responsive portfolio website COMPLETELY from scratch.
+                    </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+
+            <article class="course">
+                <div class="course-image">
+                    <img src="images/course3.jpg">
+                </div>
+              <div class="course-info">
+                <h4>Responsive Admin Dashboard UI Design </h4>
+                <p>
+                    In this updated tutorial, we'll create a responsive admin dashboard layout with CSS and a touch of JavaScript.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+              </div>
+            </article>
+        </div>
+    </section>
+
+          <!-- ====================== end of courses ============= -->
+
+
+
+   
+            <section class="faqs">
+                <h2>Frequently Asked Questions</h2>
+                <div class="container faqs-container">
+                    <article class="faq">
+                        <div class="faq-icon"><i class="fa-solid fa-plus"></i> </div>
+                        <div class="ques-ans">
+                            <h4>Can I join now?</h4>
+                        </div>
+                        <p>Yes, you can join now as this is a self-paced course. All Lectures will be provided on Day1. </p>
+                    </article>
+
+                    <article class="faq">
+                        <div class="faq-icon"><i class="fa-solid fa-plus"></i> </div>
+                        <div class="ques-ans">
+                            <h4>Can I do this course with my college classes?</h4>
+                        </div>
+                        <p>Yes, it is a self-paced course and can be done along with college classes.</p>
+                    </article>
+
+                    <article class="faq">
+                        <div class="faq-icon"><i class="fa-solid fa-plus"></i> </div>
+                        <div class="ques-ans">
+                            <h4>Is the course in Hindi or English?</h4>
+                        </div>
+                        <p>The course is taught in Hinglish (a mix of Hindi & English).  </p>
+                    </article>
+
+                    <article class="faq">
+                        <div class="faq-icon"><i class="fa-solid fa-plus"></i> </div>
+                        <div class="ques-ans">
+                            <h4>How long is the course access?</h4>
+                        </div>
+                        <p>The course is accessible for the duration of one year. </p>
+                    </article>
+
+                    <article class="faq">
+                        <div class="faq-icon"><i class="fa-solid fa-plus"></i> </div>
+                        <div class="ques-ans">
+                            <h4>Will there be a Certificate of completion?</h4>
+                        </div>
+                        <p>Yes, you will get a certificate after finishing this course. </p>
+                    </article>
+
+                    <article class="faq">
+                        <div class="faq-icon"><i class="fa-solid fa-plus"></i> </div>
+                        <div class="ques-ans">
+                            <h4>Is there a course schedule? </h4>
+                        </div>
+                        <p>All chapters will be unlocked on Day1. We advise you to fix a time for yourself (eg - 9PM) & study according to your schedule. </p>
+                    </article>
+
+                    <article class="faq">
+                        <div class="faq-icon"><i class="fa-solid fa-plus"></i> </div>
+                        <div class="ques-ans">
+                            <h4>Will there be question practice in the course?</h4>
+                        </div>
+                        <p>Yes, the course has 200+ carefully curated questions solved in class.  </p>
+                    </article>
+
+                    <article class="faq">
+                        <div class="faq-icon"><i class="fa-solid fa-plus"></i> </div>
+                        <div class="ques-ans">
+                            <h4>Will there be projects in the course?</h4></h4>
+                        </div>
+                        <p>Yes, the course will have many minor & major projects that will help to strengthen your concepts and you can mention in your resume/portfolio.  </p>
+                    </article>
+
+                    <article class="faq">
+                        <div class="faq-icon"><i class="fa-solid fa-plus"></i> </div>
+                        <div class="ques-ans">
+                            <h4>What is MERN Stack in Development?</h4>
+                        </div>
+                        <p>MERN stands for MongoDB, Express, React & Node. These are the 4 key technologies that will be covered in the batch. MERN is the most popular stack for web development & choice for today’s web developers. </p>
+                    </article>
+
+                    <article class="faq">
+                        <div class="faq-icon"><i class="fa-solid fa-plus"></i> </div>
+                        <div class="ques-ans">
+                            <h4>What is Web Development?</h4>
+                        </div>
+                        <p>It is the process of building websites for the internet. We use many websites like Amazon, Flipkart, Netflix & many more. We will learn the process of designing, building & deploying such websites on the internet.  </p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- ====================== end of faqs ============= -->
+
+
+
+
+     
+            <section class="container testimonials-container mySwiper">
+                <h2>Students' Testimonials</h2>
+                <div class="swiper-wrapper">
+                    <article class="testimonial swiper-slide">
+                        <div class="avatar">
+                            <img src="images/avatar1.jpg">
+                        </div>
+                        <div class="testimonial-info">
+                            <h5>Ritika</h5>
+                            <small>Student</small>
+                        </div>
+                        <div class="testimonial-body">
+                             <p>"It was only because of Alpha batch that I was able to crack FAANG! (7Lakh/ Month) International Internship @AMAZON .</p>
+                    </article>
+
+                    <article class="testimonial swiper-slide">
+                        <div class="avatar">
+                            <img src="images/avatar2.jpg">
+                        </div>
+                        <div class="testimonial-info">
+                            <h5>John Doe</h5>
+                            <small>Student</small>
+                        </div>
+                        <div class="testimonial-body">
+                            <p>"Alpha covered all topics in a structured manner which makes you want to study. They have made the course easy to understand for students".</p>
+                        </div>
+                    </article>
+
+                    <article class="testimonial swiper-slide">
+                        <div class="avatar">
+                            <img src="images/avatar3.jpg">
+                        </div>
+                        <div class="testimonial-info">
+                            <h5>Aditi Kumari</h5>
+                            <small>Student</small>
+                        </div>
+                        <div class="testimonial-body">
+                            <p>"I didn't know java before Alpha & started my Java learning journey here. It helped me crack my internship @GOLDMAN SACHS(1.5L/MONTH)." </p>
+                        </div>
+                    </article>
+
+                    <article class="testimonial swiper-slide">
+                        <div class="avatar">
+                            <img src="images/avatar4.jpg">
+                        </div>
+                        <div class="testimonial-info">
+                            <h5>James Smith</h5>
+                            <small>Student</small>
+                        </div>
+                        <div class="testimonial-body">
+                            <p>"For the role that Alpha played in my life, I would rate it 10/10. I wish I could have done it sooner. Every topic was taught so in-depth from basics to advanced".</p>
+                        </div>
+                    </article>
+
+                    <article class="testimonial swiper-slide">
+                        <div class="avatar">
+                            <img src="images/avatar5.jpg">
+                        </div>
+                        <div class="testimonial-info">
+                            <h5>Diana Ayi</h5>
+                            <small>Student</small>
+                        </div>
+                        <div class="testimonial-body">
+                            <p>"My placement preparation started with Alpha & I became consistent with it. I liked it so much that I recommended to 2 of my friends".</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-pagination"></div>
+            </section>
+
+            <!-- ====================== end of testimonials ============= -->
+
+
+
+
+
+            <footer class="footer">
+                <div class="container footer-container">
+                    <div class="footer-1">
+                        <a href="index.html" class="footer-logo"><h4>Alpha</h4></a>
+                        <p>We are India's Most Loved Coding Community. Join us! </p>
+                    </div>
+
+                    <div class="footer-2">
+                     <h4>Permalinks</h4>
+                       <ul class="permalinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                       </ul>
+                    </div>
+
+                    <div class="footer-3">
+                        <h4>Privacy</h4>
+                          <ul class="privacy">
+                           <li><a href="#">Privacy Policy</a></li>
+                           <li><a href="#">Terms & Conditions</a></li>
+                           <li><a href="#">Refund Policy</a></li>
+                           <li><a href="#">Delivery Information</a></li>
+                          </ul>
+                       </div>
+
+                       <div class="footer-4">
+                        <h4>Contact Us</h4>
+                          <div>
+                            <p>+91 620 462 4928</p>
+                            <p>aksr252002@gmail.com</p>
+                            <p>10:00 - 18:00, Mon - Sat</p>
+                          </div>
+
+                          <ul class="follow-icons">
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                          </ul>
+                       </div>
+                </div>
+                <div class="copyright">
+                    <p> Copyright &copy; All Right Reserved | Designed By <span>Mr. Avinash </span> &#128515; 2023</p>
+                   </div> 
+            </footer>
+
+
+        
+
+       
+       
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+          <!-- custom  js file  -->
+      <script src="js/main.js"></script>
+
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        //   when screen width is >= 600px
+        breakpoints: {
+            600:{
+                slidesPerView: 2
+            }
+        }
+        });
+      </script>
+
+
+</body>
+</html>

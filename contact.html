@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multipage Education Website</title>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!--plugins for favicon-->
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/site.webmanifest">
+   
+  
+      <!-- google font (Montserrat) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+      <!-- custom css file -->
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/contact.css">
+
+      <style>
+        body{
+            background-image: url(images/bg-texture.png);
+        }
+      </style>
+</head>
+<body>
+      <nav>
+        <div class="container nav-container">
+            <a href="index.html">ALPHA</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      </nav>
+
+      <!-- ====================== end of navbar ============= -->
+
+
+
+
+      <section class="contact">
+        <div class="container contact-container">
+
+            <aside class="contact-aside">
+                <div class="aside-image">
+                    <img src="images/contact.svg">
+                </div>
+                <h2>Contact Us</h2>
+                <p>Visit one of our agency locations or contact us today</p>
+                <ul class="contact-details">
+                    <li>
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <h5>+620 462 4928</h5>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <h5>aksr252002@gmail.com</h5>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Arrah, India</h5>
+                    </li>
+                </ul>
+
+                <ul class="contact-socials">
+                    <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/avi_rajput1225" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/avinash-kumar-19b9b11aa" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </ul>
+            </aside>
+
+
+            <form class="contact-form" action="https://formspree.io/f/xgejwovn" method="POST">
+                <div class="form-name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </div>
+                <input type="email" name="Email" placeholder="Your Email Address" required>
+                <textarea name="Message"  cols="30" rows="7" required placeholder="Message"></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+      </section>
+
+
+       <!-- ====================== end of contact ============= -->
+
+
+
+
+
+
+      <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-1">
+                <a href="index.html" class="footer-logo"><h4>Alpha</h4></a>
+                <p>We are India's Most Loved Coding Community. Join us! </p>
+            </div>
+
+            <div class="footer-2">
+             <h4>Permalinks</h4>
+               <ul class="permalinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+
+            <div class="footer-3">
+                <h4>Privacy</h4>
+                  <ul class="privacy">
+                   <li><a href="#">Privacy Policy</a></li>
+                   <li><a href="#">Terms & Conditions</a></li>
+                   <li><a href="#">Refund Policy</a></li>
+                   <li><a href="#">Delivery Information</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-4">
+                <h4>Contact Us</h4>
+                  <div>
+                    <p>+91 620 462 4928</p>
+                    <p>aksr252002@gmail.com</p>
+                    <p>10:00 - 18:00, Mon - Sat</p>
+                  </div>
+
+                  <ul class="follow-icons">
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </li>
+                  </ul>
+               </div>
+        </div>
+
+        <div class="copyright">
+            <p> Copyright &copy; All Right Reserved | Designed By <span>Mr. Avinash </span> &#128515; 2023</p>
+           </div> 
+    </footer>
+
+
+
+    <!-- custom js file -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
